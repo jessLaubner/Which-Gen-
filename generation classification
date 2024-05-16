@@ -1,0 +1,65 @@
+#Which Generation Classification do you fall under?
+
+#Welcome the user
+
+print ('Hello.')
+
+#Variable to hold birthyear
+#Declare INT year
+#Get birthyear
+#Display "Enter the year that you were born:")
+#Input birthyear
+
+birthYear = int(input("Enter the year that you were born:"))
+
+#Determine Generation Classifications
+
+
+#Parameters for the program years
+if birthYear > 2026 or birthYear < 1925:
+    print ('Invalid Year')
+
+#If-Then-Else
+    
+#Silent Gen
+elif birthYear < 1945:
+    print ('Your birth year is considered the Silent Generation')
+
+#Boomers
+elif birthYear < 1965:
+    print ('You would be considered a Baby Boomer!')
+
+#Gen X
+elif birthYear < 1980 and birthYear > 1965:
+    print ('Hello Gen X!')
+
+#Xennial
+elif birthYear < 1984:
+    print ('You are a Xennial')
+
+#Both GenX and Xennial
+elif birthYear <= 1980 and birthYear >= 1977:
+    print ('You are BOTH GenX and Xennial!')
+
+#Zillenial
+elif birthYear < 1999 and birthYear > 1992:
+    print ('You are a Zillenial!')
+
+#Both Zillenial and GenZ
+elif birthYear < 1998 and birthYear > 1997:
+    print ('You are BOTH Zillenial and Gen Z!')
+
+#GenZ
+elif birthYear < 2013:
+    print ('You are Gen Z!')
+
+#GenAlpha
+elif birthYear < 2026:
+    print ('Hi there Generation Alpha!')
+
+#end if-elif
+
+
+
+
+
